@@ -104,20 +104,65 @@ Before installing the project, ensure the following software is installed:
 
 ## Project Structure
 
+## Project Structure
+
+The project follows the standard Laravel MVC architecture and is organized around task management functionality.
+
 ```text
-app/
-├── Http/Controllers/
-├── Models/
-
-database/
-├── migrations/
-
-resources/
-├── css/
-├── views/
-
-routes/
-└── web.php
+laravel-project-personal-task-manager/
+├── app/
+│   ├── Http/
+│   │   └── Controllers/
+│   │       └── TaskController.php        # Handles task CRUD, status update, and view logic
+│   └── Models/
+│       └── Task.php                       # Eloquent model for the tasks table
+├── bootstrap/
+│   └── app.php                            # Laravel application bootstrap
+├── config/
+│   ├── app.php
+│   ├── database.php
+│   ├── session.php
+│   └── ...                                # Laravel configuration files
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   │   └── 2026_09_25_032655_create_tasks_table.php
+│   └── seeders/
+│       └── DatabaseSeeder.php
+├── public/
+│   ├── build/                             # Compiled Vite assets
+│   ├── index.php
+│   └── robots.txt
+├── resources/
+│   ├── css/
+│   │   └── app.css
+│   ├── js/
+│   │   ├── app.js
+│   │   └── bootstrap.js
+│   └── views/
+│       ├── home.blade.php                # Landing/home page
+│       └── tasks/
+│           ├── create.blade.php          # Add task form
+│           ├── edit.blade.php            # Update task form
+│           └── index.blade.php           # View and manage all tasks
+├── routes/
+│   └── web.php                            # Application routes
+├── storage/
+│   ├── app/
+│   ├── framework/
+│   └── logs/
+├── tests/
+│   ├── Feature/
+│   └── Unit/
+├── .env.example
+├── artisan
+├── composer.json
+├── package.json
+├── phpunit.xml
+├── vite.config.js
+├── README.md
+├── vendor/                               # Composer dependencies
+└── ...
 ```
 
 ## Learning Objectives
