@@ -113,16 +113,16 @@ laravel-project-personal-task-manager/
 ├── app/
 │   ├── Http/
 │   │   └── Controllers/
-│   │       └── TaskController.php        # Handles task CRUD, status update, and view logic
+│   │       └── TaskController.php        
 │   └── Models/
-│       └── Task.php                       # Eloquent model for the tasks table
+│       └── Task.php                       
 ├── bootstrap/
-│   └── app.php                            # Laravel application bootstrap
+│   └── app.php                            
 ├── config/
 │   ├── app.php
 │   ├── database.php
 │   ├── session.php
-│   └── ...                                # Laravel configuration files
+│   └── ...                               
 ├── database/
 │   ├── factories/
 │   ├── migrations/
@@ -130,7 +130,7 @@ laravel-project-personal-task-manager/
 │   └── seeders/
 │       └── DatabaseSeeder.php
 ├── public/
-│   ├── build/                             # Compiled Vite assets
+│   ├── build/                            
 │   ├── index.php
 │   └── robots.txt
 ├── resources/
@@ -140,13 +140,13 @@ laravel-project-personal-task-manager/
 │   │   ├── app.js
 │   │   └── bootstrap.js
 │   └── views/
-│       ├── home.blade.php                # Landing/home page
+│       ├── home.blade.php                
 │       └── tasks/
-│           ├── create.blade.php          # Add task form
-│           ├── edit.blade.php            # Update task form
-│           └── index.blade.php           # View and manage all tasks
+│           ├── create.blade.php          
+│           ├── edit.blade.php            
+│           └── index.blade.php          
 ├── routes/
-│   └── web.php                            # Application routes
+│   └── web.php                          
 ├── storage/
 │   ├── app/
 │   ├── framework/
@@ -161,7 +161,7 @@ laravel-project-personal-task-manager/
 ├── phpunit.xml
 ├── vite.config.js
 ├── README.md
-├── vendor/                               # Composer dependencies
+├── vendor/                               
 └── ...
 ```
 
