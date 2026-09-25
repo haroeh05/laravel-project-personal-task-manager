@@ -6,18 +6,6 @@ A Laravel-based web application for creating, managing, updating, and deleting p
 
 The Personal Task Manager helps users organize their daily responsibilities in one central location. Users can create tasks, view existing tasks, edit task information, update task status, and remove completed or unnecessary tasks.
 
-## Features
-
-- Create new personal tasks
-- View all saved tasks
-- Edit task titles, descriptions, and details
-- Update task status
-- Delete tasks
-- Form validation and user feedback
-- Responsive layout for desktop and mobile screens
-- Database-backed task storage
-- Clear and accessible user interface
-
 ## Technologies Used
 
 - **Laravel**
@@ -178,7 +166,9 @@ Project Code: WST21-PM-2026-SF <br>
 Student Name: Haroeh Trazo <br>
 Course & Year: BSIT - 7 <br>
 Database Used: MySQL <br>
-Features:
+
+## Features
+
 - Add Task
 - View Tasks
 - Edit Task
