@@ -219,3 +219,15 @@ Database Used: MySQL <br>
 - Edit Task
 - Delete Task
 - Update Status
+
+## Pictures
+
+<img width="1902" height="898" alt="image" src="https://github.com/user-attachments/assets/a134ad02-db58-4a2a-a82c-53eb49eabd10" />
+<img width="1900" height="900" alt="image" src="https://github.com/user-attachments/assets/c33e487b-2a1f-43c7-b05c-dad23a300118" />
+<img width="1916" height="502" alt="image" src="https://github.com/user-attachments/assets/e26adc09-faf9-439e-86cf-2dd29ddd3879" />
+<img width="1916" height="540" alt="image" src="https://github.com/user-attachments/assets/1df7a0ad-1423-4468-a79b-ec2ee3c64739" />
+<img width="1919" height="540" alt="image" src="https://github.com/user-attachments/assets/5f2df6af-f46d-4a86-8346-75bbd18e0472" />
+<img width="1916" height="540" alt="image" src="https://github.com/user-attachments/assets/1a4273bc-9ea4-4ed7-a549-f4cb8ae709a8" />
+
+
+
